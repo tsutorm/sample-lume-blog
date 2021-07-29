@@ -8,7 +8,7 @@ sections:
   path: _includes/layout
   label: layout
   create: all
-  match: "**/*"
+  match: "*"
 - type: directory
   path: posts
   label: posts
