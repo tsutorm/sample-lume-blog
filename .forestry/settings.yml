@@ -11,7 +11,7 @@ sections:
   path: posts
   label: posts
   create: all
-  match: "**/*"
+  match: "**/*.md"
 upload_dir: sample-lume-blog
 public_path: sample-lume-blog
 front_matter_path: ''
