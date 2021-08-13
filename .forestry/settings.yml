@@ -4,14 +4,14 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: _includes/**/*
-  label: site-layouts
 - type: directory
   path: posts
   label: posts
   create: all
   match: "**/*.md"
+- type: document
+  path: _includes/**/*
+  label: site-layouts
 upload_dir: sample-lume-blog
 public_path: sample-lume-blog
 front_matter_path: ''
