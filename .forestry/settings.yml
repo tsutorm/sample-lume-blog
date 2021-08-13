@@ -4,10 +4,9 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
-  path: _includes/layouts
-  label: layout
-  create: documents
+- type: document
+  path: _includes/**/*
+  label: site-layouts
   match: "**/*"
 - type: directory
   path: posts
