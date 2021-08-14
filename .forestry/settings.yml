@@ -15,8 +15,8 @@ front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
 build:
-  preview_output_directory: "/tmp"
+  preview_output_directory: "/app/_site"
   preview_docker_image: denoland/deno:1.13.0
   mount_path: "/app"
   working_dir: "/app"
-  instant_preview_command: deno run -A https://deno.land/x/lume/ci.ts --src=/app --dest=/tmp
+  instant_preview_command: deno run -A https://deno.land/x/lume/ci.ts --dev
