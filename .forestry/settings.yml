@@ -15,7 +15,7 @@ front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
 build:
-  preview_output_directory: "/app/_site"
+  preview_output_directory: _site
   preview_docker_image: denoland/deno:1.13.0
   mount_path: "/app"
   working_dir: "/app"
