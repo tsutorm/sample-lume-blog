@@ -19,4 +19,4 @@ build:
   preview_docker_image: denoland/deno:1.13.0
   mount_path: "/app"
   working_dir: "/app"
-  instant_preview_command: deno run -A https://deno.land/x/lume/ci.ts -w --dev
+  instant_preview_command: lume
